@@ -16,15 +16,13 @@
         flex-direction: column;
         flex-wrap: wrap;
         min-height: 100%;
-        overflow-x: hidden;
       
     }
 
     .parent{
         position: sticky;
         top: 0;
-        z-index: 100;
-         
+         z-index: 100;
     }
 
 
