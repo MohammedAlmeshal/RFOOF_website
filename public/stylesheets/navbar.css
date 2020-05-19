@@ -22,7 +22,8 @@
     .parent{
         position: sticky;
         top: 0;
-         z-index: 100;
+        z-index: 100;
+        
     }
 
 
@@ -33,10 +34,12 @@ nav{
     min-height: 10vh ;
     z-index: 100;
 
-  position: sticky;
-  top: 0;
+  
   align-self: flex-start;
    
+  
+   
+    
   
     background-color: rgb(255,255,255);
     /* direction: rtl; */
@@ -45,9 +48,9 @@ nav{
     0 4px 4px rgba(0,0,0,0.10);
   
     
+    
+    
 }
-
-
 
 .logo{
     color: rgb(20, 20, 20);
