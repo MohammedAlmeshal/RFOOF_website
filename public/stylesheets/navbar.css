@@ -38,9 +38,6 @@ nav{
   align-self: flex-start;
    
   
-   
-    
-  
     background-color: rgb(255,255,255);
     /* direction: rtl; */
     box-shadow:  0 1px 1px rgba(0,0,0,0.10), 
@@ -48,9 +45,9 @@ nav{
     0 4px 4px rgba(0,0,0,0.10);
   
     
-    
-    
 }
+
+
 
 .logo{
     color: rgb(20, 20, 20);
