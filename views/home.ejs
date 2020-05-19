@@ -7,18 +7,20 @@
     <link rel="stylesheet" href="/stylesheets/navbar.css">
     <link href="/stylesheets/humburgers.css" rel="stylesheet">
     <link href="/stylesheets/body.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Rfoof</title>
 
+        <div class="parent">
     <nav>
-        <div class="logo">Rfoof</div>
+        <div class="logo"><img src="/imgs/logo.png" alt=""></div>
         <ul class="nav-links">
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Work</a></li>
-            <li><a href="/">Projects</a></li>
+            <li><a href="#1">Home</a></li>
+            <li><a href="#2">Download</a></li>
+            <li><a href="#3">About</a></li>
+            <li><a href="#4">Contact</a></li>
         </ul>
 
         <button id="burgerDisplay" class="  hamburger hamburger--slider " type="button">
@@ -28,14 +30,14 @@
         </button>
     </nav>
 
-
+</div>
 
 </head>
 
 <body>
 
 <div id="content">
-    <div class="container container1">
+    <div id="1" class="container container1">
      
    <div class="TextBox">
    <p class="rfoof">RFOOF</p>
@@ -44,14 +46,16 @@
         </div>
     </div>
 
-    <div class="container container2">
-        <img id="phone" src="/imgs/PhoneNew.png" alt="">
-        <img id="download" src="/imgs/pngfuel.com.png" alt="">
-     
+    <div id="2" class=" container container2">
+        
+        
+        <img  data-aos="fade-up"  data-aos-duration="1500" id="phone" src="/imgs/PhoneNew.png" alt="">
+        <img  data-aos="fade-up"   data-aos-duration="1500" id="download" src="/imgs/pngfuel.com.png" alt="">
+    
     </div>
 
-    <div class="container container3">
-        <div class="card">
+    <div id="3" class="container container3">
+        <div class="card" data-aos="fade-up">
             <img src="/imgs/scan.png" alt="">
             <p class="discripHead">
               Qr scaning   </p>
@@ -59,21 +63,21 @@
              
 
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-up">
             <img src="/imgs/Multiplatform.png" alt="">
             <p class="discripHead">
-                Multiplatformed  </p>
+                Multiplatform   </p>
                   <p class="discrip" >Track your inventory from any device</p>
 
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-up">
             <img src="/imgs/data.png" alt="">
             
-            <p class="discripHead">
+            <p class="discripHead" >
                 Sales analysis  </p>
                   <p class="discrip" >RFOOF uses data analytics technologies to provide a full business monitoring experience</p>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-up">
             <img src="/imgs/custom.png" alt="">
             <p class="discripHead">
                 Personalization </p>
@@ -83,10 +87,10 @@
     </div>
 
 
-    <div class="container container4"> 
+    <div id="4" class="container container4"> 
      
 
- <p id="Appdiscrip" > <span class="rfoof ">RFOOF</span> is an inventory management app for small business owners who seek a simple
+ <p id="Appdiscrip" data-aos="fade-right" > <span class="rfoof ">RFOOF</span> is an inventory management app for small business owners who seek a simple
             inventory management solution. 
     
             RFOOF offers a flat learning curve and friendly user interface with a completely portable system that 
@@ -115,6 +119,10 @@
 </div>
 
     <script src="/javascripts/navLogic.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
