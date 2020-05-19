@@ -19,22 +19,15 @@
       
     }
 
-    .parent {
-        position: fixed;
-        top: 0;
-        left: 0;
-        margin: auto;
-        width: 100%;
-         z-index: 100;
-      }
-
+    
 
 
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 12vh ;
+    min-height: 10vh ;
+    z-index: 100;
    
     
   
@@ -55,6 +48,10 @@ nav{
     letter-spacing: 3px;
     font-size: 20px;
     margin-right: 100px;
+    max-width:35%;
+    max-height:35%;
+    width: auto;
+    height: auto;
     
 }
 
@@ -63,7 +60,7 @@ nav{
    display: flex; 
    justify-content: space-around;
    width: 30%;
-   z-index: 1
+   z-index: 100
  
 }
 
@@ -130,9 +127,9 @@ nav{
     .nav-links{
         position: absolute;
         right: 0px;
-        height: 88vh;               /*  change this with nav width */
+        height: 90vh;               /*  change this with nav width */
         width: 50%;
-        top: 12vh;
+        top: 10vh;
         background-color: rgb(255,255,255);
         display: flex;
         flex-direction: column;
@@ -161,6 +158,8 @@ nav{
 
 .nav-active {
         transform:translateX(0%) ;
+        
+        
                 
 
          box-shadow:  -1px 0 1px -1px rgba(0,0,0,0.10), 
