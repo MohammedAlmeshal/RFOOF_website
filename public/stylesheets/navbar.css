@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+  
     
 }
 
@@ -17,12 +18,14 @@
         flex-wrap: wrap;
         min-height: 100%;
       
+      
     }
 
     .parent{
-        position: sticky;
+        /* position: sticky;
         top: 0;
-        z-index: 100;
+        z-index: 100; */
+        
         
     }
 
@@ -33,10 +36,12 @@ nav{
     align-items: center;
     min-height: 10vh ;
     z-index: 100;
+    position: fixed;
+    width: 100%;
+    
 
   
-  align-self: flex-start;
-   
+  
   
    
     
